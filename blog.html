@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Database</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-200 text-gray-800 font-sans antialiased">
+    <nav class="w-full bg-blue-900 text-white text-center py-12 px-8">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="font-bold text-3xl">BLOG DATABASE</a>
+            <a href="kontak.html" class="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded transition">Hubungi Saya</a>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto p-6 mt-6 bg-blue-50 shadow-lg rounded-lg">
+        <header class="mb-8 border-b-2 pb-4">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-blue-900 mb-2">Mengenal Perintah Dasar Database</h1>
+            <div class="text-gray-500 text-sm flex flex-col sm:flex-row sm:gap-4">
+                <span>Oleh: <strong>Bagus Arifin</strong> (2405176028)</span>
+                <span class="hidden sm:inline">|</span>
+                <span>9 Februari 2026</span>
+            </div>
+        </header>
+
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-blue-800 mb-4">Apa sih Database itu?</h3>
+            <p class="leading-relaxed text-gray-700 text-justify mb-2">
+                Database adalah sebuah system yang di buat untuk mengorganisasi, menyimpan dan menarik data dengan mudah. Database terdiri dari kumpulan data yang terorganisir untuk 1 atau lebih penggunaan, dalam bentuk digital. Database digital di-manage menggunakan Database Management System (DBMS), yang menyimpan isi database, mengizinkan pembuatan dan maintenance data dan pencarian dan akses yang lain. Beberapa Database yang ada saat ini adalah : Mysql, Sql Server, Ms.Access, Oracle, dan PostgreSql.
+            </p>
+            <a href="https://d1wqtxts1xzle7.cloudfront.net/112483716/21-libre.pdf?1710649826=&response-content-disposition=inline%3B+filename%3DPenggunaan_Database_Mysql_dengan_Interfa.pdf&Expires=1770575616&Signature=bWwApSgTeuLSkefD2P-AVm3T~b5-hxsy~KuRvL~VcXzP7xRHQT3hK-vy34LasX0q~IMKJHJAcIDiexVqpnLhwZ4AajS82AvJyZZO2M1tXe4PZ-wcZ5vTR2Qmt5CKRwELzJnoRMU~f9G8rbqUei1czyZxyvRlAfOBqlPrHSZLZkUr1P~zphaCE1r21LAZig~aB7VebjtRIhjseikl-MzCAW0mRGcXFOK3lhTAYZxE~7gaafoCldVTU5dU8nC8rvQ4wmw3T7Kzte2w1HLzJL5HH7SplACJCWoQPT47q1sjRJMksftNP5OfXenQj6CwXWClHGfmM23VHfYhv4H0jpWT3w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA" class="text-sm text-blue-600 hover:underline inline-block mt-2" target="_blank">[Sumber Referensi]</a>
+        </section>
+        
+        <section class="mb-10">
+            <h3 class="text-2xl font-bold text-blue-800 mb-4">Perintah Dasar Membuat Database</h3>
+            <p class="mb-4 text-gray-700">Untuk dapat membuat sebuah Database ada 7 perintah dasar yang biasa digunakan, yaitu:</p>
+            <ol class="list-decimal pl-6 space-y-8 text-gray-700">
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Create</strong>
+                    <p class="mt-2 mb-3">Perintah Create digunakan untuk membuat suatu objek baik berupa database ataupun berupa table dalam mysql.</p>
+                    <p class="font-semibold">Contoh:</p>
+                    <ol class="list-[lower-alpha] pl-6 mt-2 space-y-4">
+                        <li>
+                            <p>Create Database</p>
+                            <img src="cihuy/Gambar 1.png" class="mt-2 rounded shadow-md w-full max-w-xl object-cover block mx-auto">
+                        </li> <br>
+                        <li>
+                            <p>Create Table</p>
+                            <img src="cihuy/Gambar 2.png" class="mt-2 rounded shadow-md w-full max-w-xl object-cover mb-4 block mx-auto">
+                            <p class="mb-2 text-sm text-gray-600">Untuk tampilan table akan seperti ini:</p>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-left border-collapse border border-gray-300">
+                                    <thead class="bg-blue-100">
+                                        <tr>
+                                            <th class="border px-4 py-2">no</th>
+                                            <th class="border px-4 py-2">nama</th>
+                                            <th class="border px-4 py-2">nim</th>
+                                            <th class="border px-4 py-2">prodi</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                            <td class="border px-4 py-2 text-center">-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Insert</strong>
+                    <p class="mt-2 mb-3">Perintah Insert digunakan untuk mengisi atau menambahkan data (record) baru pada table.</p>
+                    <p class="font-semibold mb-2">Contoh:</p>
+                    <img src="cihuy/Gambar 3.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 block mx-auto">
+                    <p class="mb-2 text-sm text-gray-600">Untuk tampilan table akan seperti ini:</p>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse border border-gray-300">
+                            <thead class="bg-blue-100">
+                                <tr>
+                                    <th class="border px-4 py-2">no</th>
+                                    <th class="border px-4 py-2">nama</th>
+                                    <th class="border px-4 py-2">nim</th>
+                                    <th class="border px-4 py-2">prodi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="border px-4 py-2">1</td>
+                                    <td class="border px-4 py-2">Bagus Arifin</td>
+                                    <td class="border px-4 py-2">28</td>
+                                    <td class="border px-4 py-2">Pendidikan Komputer</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Select</strong>
+                    <p class="mt-2 mb-3">Perintah Select digunakan untuk mengambil atau menampilkan data dari tabel.</p>
+                    <img src="cihuy/Gambar 4.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 mt-2 block mx-auto">
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Alter</strong>
+                    <p class="mt-2 mb-3">Perintah Alter digunakan untuk mengubah struktur tabel yang sudah ada.</p>
+                    <img src="cihuy/Gambar 5.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 mt-2 block mx-auto">
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Update</strong>
+                    <p class="mt-2 mb-3">Perintah Update digunakan untuk mengubah atau memperbarui data yang sudah ada di dalam tabel.</p>
+                    <img src="cihuy/Gambar 7.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 mt-2 block mx-auto">
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Delete</strong>
+                    <p class="mt-2 mb-3">Perintah Delete digunakan untuk menghapus data (record) dari tabel.</p>
+                    <img src="cihuy/Gambar 8.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 mt-2 block mx-auto">
+                </li>
+
+                <li>
+                    <strong class="text-lg text-gray-900">Perintah Drop</strong>
+                    <p class="mt-2 mb-3">Perintah Drop digunakan untuk menghapus objek secara permanen baik dalam bentuk Database, Table, maupun struktur dalam table.</p>
+                    <img src="cihuy/Gambar 9.png" class="rounded shadow-md w-full max-w-xl object-cover mb-4 mt-2 block mx-auto">
+                </li>
+            </ol>
+        </section>
+
+        <section class="mb-10 border-t-2 pt-8">
+            <h3 class="text-2xl font-bold text-blue-800 mb-4">Video Tutorial</h3>
+            <p class="mb-4 text-gray-700">Untuk dapat memahami lebih lanjut anda dapat menonton video tutorial dibawah ini.</p>
+            <video src="cihuy/Video Penjelasan.mp4" controls class="w-full max-w-2xl rounded-lg shadow-lg border border-gray-200 block mx-auto"></video>
+        </section>
+
+        <section class="mb-10 border-t-2 pt-8">
+            <h3 class="text-2xl font-bold text-blue-800 mb-4">Galeri Saya</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="cihuy/Maba 2.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Maba 1.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Maba 3.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Maba Kelas A.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Praktikum Arkom.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Pendikom 1.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/KWH.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Kerohanian.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+                <img src="cihuy/Bukber 2.jpg" class="w-full h-auto rounded shadow hover:scale-105 transition duration-300">
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 text-black text-sm mt-8">
+        <p>&copy; 2026 Bagus Arifin <br> Tugas Akhir Pemrograman Web</p>
+    </footer>
+</body>
+</html>
